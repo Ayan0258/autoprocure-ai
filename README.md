@@ -1,31 +1,28 @@
-# AutoProcure AI 
+# AutoProcure AI 🚀
 
+[![Watch the Demo](https://img.shields.io/badge/YouTube-Watch%20Demo%20Video-red?style=for-the-badge&logo=youtube)](https://youtu.be/K9y3PxVxKTY)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-Backend-009688?style=for-the-badge&logo=fastapi)](https://fastapi.tiangolo.com/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML%20Pipeline-F7931E?style=for-the-badge&logo=scikit-learn)](https://scikit-learn.org/)
 
-Welcome to **AutoProcure AI**! This is my project for the PayPal AI Hackathon on Devpost. 
+**AutoProcure AI** is an autonomous B2B hardware procurement platform powered by a **Scikit-Learn** machine learning pipeline and a **PayPal Sandbox** checkout integration. It evaluates hardware deals in real time—predicting fair market value, calculating a 0–100 Deal Score, and executing automated test orders.
 
-I built this because modern B2B procurement is usually bogged down by messy pricing, unverified vendor metrics, and clunky checkout steps. AutoProcure AI solves this by combining smart machine learning deal scoring with seamless payment workflows in one clean dashboard.
-
----
-
-## What it does
-- **Scikit-Learn Deal Scoring:** It looks at product categories, warranty tiers, seller ratings, and review counts to predict fair market value, calculate a 0-100 deal score, and instantly tell you whether it's a solid buy.
-- **PayPal Sandbox Checkout:** Automatically triggers test orders and secure simulation workflows to finish the procurement loop without needing live keys or personal accounts.
-- **FastAPI & Tailwind UI:** Powered by a fast asynchronous backend and a sleek, modern enterprise-style dashboard.
+🎥 **Live Demo Video:** https://youtu.be/K9y3PxVxKTY
 
 ---
 
-## Tech Stack
-- **Backend & ML:** Python, Scikit-Learn, Pandas, FastAPI, Uvicorn, Joblib, Python-Dotenv
-- **Frontend:** HTML5, Tailwind CSS, JavaScript (Fetch API)
-- **Payments:** PayPal Sandbox API (supports live sandbox tokens or fallback simulation mode)
+## ✨ Key Features
+* **Real-Time ML Deal Scoring:** Evaluates B2B hardware listings (`Monitor`, `Keyboard`, `Webcam`, `Headset`, `Docking Station`) based on warranty tier, listed price, seller rating, and review volume.
+* **Instant Valuation & Risk Verdict:** Outputs predicted fair value, estimated savings, a 0–100 Deal Score, and a clear recommendation (`STRONG BUY` vs. `OVERPRICED RISK`).
+* **Zero-Config PayPal Sandbox Integration:** Supports live PayPal Sandbox API checkout and automatically falls back to a built-in **Simulation Mode** if no API keys are provided, so anyone can test the full workflow out of the box.
 
 ---
 
-## How to Run It Locally
+## 🚀 How to Run Locally (For Developers & Reviewers)
 
-Want to test it out on your machine? Just follow these steps:
+Follow these steps to run the project on your own machine:
 
-1. **Clone the repo:**
-   ```bash
-   git clone [https://github.com/Ayan0258/autoprocure-ai.git](https://github.com/Ayan0258/autoprocure-ai.git)
-   cd autoprocure-ai
+### 1. Clone the Repository
+```bash
+git clone [https://github.com/Ayan0258/autoprocure-ai.git](https://github.com/Ayan0258/autoprocure-ai.git)
+cd autoprocure-ai
