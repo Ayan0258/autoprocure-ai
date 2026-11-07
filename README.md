@@ -24,8 +24,7 @@ Follow these steps to run the project on your own machine:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/Ayan0258/autoprocure-ai.git](https://github.com/Ayan0258/autoprocure-ai.git)
-cd autoprocure-ai
+git clone https://github.com/Ayan0258/autoprocure-ai.git
 ```
 
 ### 2. Create and Activate a Virtual Environment
@@ -60,7 +59,7 @@ uvicorn main:app --reload
 ### 6. Open in Browser
 Once the terminal shows the server is running, open your browser and go to:
 ```text
-[http://127.0.0.1:8000](http://127.0.0.1:8000)
+http://127.0.0.1:8000
 ```
 
 ---
